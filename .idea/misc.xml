@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.13 (Wallscloud_Selenium)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (Wallscloud_Selenium)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (Wallcloud_UI_Tests)" project-jdk-type="Python SDK" />
 </project>

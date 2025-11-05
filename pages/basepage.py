@@ -23,6 +23,10 @@ class BasePage(object):
     def click_element(self, locator):
         self.wait.until(EC.element_to_be_clickable(locator)).click()
 
+    def js_click(self, locator):
+        element = self.wait.until(EC.element_to_be_clickable(locator))
+        self.driver.execute_script("arguments[0].click();", element)
+
     def current_url(self):
         return self.driver.current_url
 

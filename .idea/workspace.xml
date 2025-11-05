@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3728ec81-741b-4e1e-ab92-1966ffaf39ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WallsCloud_Selen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WallsCloud_Selen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +49,35 @@
     &quot;Python tests.Python tests for tests.test_main_page.test_more_items.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tests.test_main_page.test_resolution_items.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tests.test_main_page.test_search_bar.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_main_page.test_top_items.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_main_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.other.executor&quot;: &quot;Run&quot;,
     &quot;Python.other2.executor&quot;: &quot;Run&quot;,
     &quot;Python.other3.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/wesley/PycharmProjects/WallsCloud_Selen&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_main_page.test_more_items">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_main_page.test_categories_items">
+    <configuration name="Python tests for tests.test_main_page.test_categories_items" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WallsCloud_Selen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_main_page.test_categories_items&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.test_main_page.test_color_search" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WallsCloud_Selen" />
       <option name="ENV_FILES" value="" />
@@ -67,36 +90,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.test_main_page.test_color_search&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_main_page.test_language_switch" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="WallsCloud_Selen" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_main_page.test_language_switch&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_main_page.test_login_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="WallsCloud_Selen" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_main_page.test_login_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -130,13 +123,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_main_page.test_top_items" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WallsCloud_Selen" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_main_page.test_top_items&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.test_main_page.test_more_items" />
+        <item itemvalue="Python tests.Python tests for tests.test_main_page.test_top_items" />
         <item itemvalue="Python tests.Python tests for tests.test_main_page.test_resolution_items" />
+        <item itemvalue="Python tests.Python tests for tests.test_main_page.test_more_items" />
+        <item itemvalue="Python tests.Python tests for tests.test_main_page.test_categories_items" />
         <item itemvalue="Python tests.Python tests for tests.test_main_page.test_color_search" />
-        <item itemvalue="Python tests.Python tests for tests.test_main_page.test_login_button" />
-        <item itemvalue="Python tests.Python tests for tests.test_main_page.test_language_switch" />
       </list>
     </recent_temporary>
   </component>
